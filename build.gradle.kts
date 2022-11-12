@@ -12,7 +12,6 @@ version = "0.1.0"
 publishing {
     publications {
         create("maven_public", MavenPublication::class) {
-//            artifactId = "koffice"
             from(components.getByName("kotlin"))
         }
     }
@@ -20,10 +19,17 @@ publishing {
 
 repositories {
     mavenCentral()
+    maven("https://jitpack.io")
 }
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.21")
+
+    implementation("org.apache.poi:poi:5.2.3")
+    implementation("org.apache.poi:poi-ooxml:5.2.3")
+
+    implementation("com.github.tosmo5:ktils:0.1.3")
 }
 
 tasks.test {
