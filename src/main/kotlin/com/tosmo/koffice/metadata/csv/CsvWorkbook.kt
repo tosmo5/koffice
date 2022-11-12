@@ -104,6 +104,7 @@ class CsvWorkbook: Workbook {
         TODO("Not yet implemented")
     }
     
+    @Deprecated("Deprecated in Java")
     override fun getNumberOfFontsAsInt(): Int {
         TODO("Not yet implemented")
     }
