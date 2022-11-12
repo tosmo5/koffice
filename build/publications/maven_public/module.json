@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tosmo",
+    "module": "koffice",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koffice-0.1.0.jar",
+          "url": "koffice-0.1.0.jar",
+          "size": 2218,
+          "sha512": "5e9837a6f52041d70c002b63eed86a77f3e70e63b65fc6f650ff0f23720be923f01083ec708415cf025cdd7cac9326906ba30d29745fc7fbddcc6cb1006d90a7",
+          "sha256": "fc784cb5bcc0a7783032a58b5ffd56bcbce124a56f760d564d54d4e855115ca4",
+          "sha1": "bca2458680b1fab63d9d9cae0849f88376fbdfe6",
+          "md5": "462e2dc10d6a96bfe8bca952fe965457"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koffice-0.1.0.jar",
+          "url": "koffice-0.1.0.jar",
+          "size": 2218,
+          "sha512": "5e9837a6f52041d70c002b63eed86a77f3e70e63b65fc6f650ff0f23720be923f01083ec708415cf025cdd7cac9326906ba30d29745fc7fbddcc6cb1006d90a7",
+          "sha256": "fc784cb5bcc0a7783032a58b5ffd56bcbce124a56f760d564d54d4e855115ca4",
+          "sha1": "bca2458680b1fab63d9d9cae0849f88376fbdfe6",
+          "md5": "462e2dc10d6a96bfe8bca952fe965457"
+        }
+      ]
+    }
+  ]
+}
