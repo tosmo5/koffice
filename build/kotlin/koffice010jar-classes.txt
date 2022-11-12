@@ -1,0 +1,1 @@
+D:\tosmo\jvmprojects\koffice\build\classes\kotlin\main\MainKt.class;D:\tosmo\jvmprojects\koffice\build\classes\kotlin\main\com\tosmo\koffice\Hellor.class
