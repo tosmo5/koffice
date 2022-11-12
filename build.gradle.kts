@@ -9,6 +9,15 @@ plugins {
 group = "com.tosmo"
 version = "0.1.0"
 
+publishing {
+    publications {
+        create("maven_public", MavenPublication::class) {
+//            artifactId = "koffice"
+            from(components.getByName("kotlin"))
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
